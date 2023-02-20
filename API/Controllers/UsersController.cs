@@ -23,7 +23,7 @@ namespace API.Controllers
 
             return users;
         }
-
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
